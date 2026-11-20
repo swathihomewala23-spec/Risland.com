@@ -16,3 +16,32 @@
   border: 0;
   background: #fff;
 }
+
+.contact-action {
+  align-self: center;
+  justify-self: start;
+}
+
+.contact-action .button {
+  min-width: 230px;
+  min-height: 54px;
+}
+
+.amenity-list-only {
+  grid-template-columns: 1fr;
+  min-height: 0;
+}
+
+.amenity-list-only .amenity-list {
+  padding: 18px 42px;
+}
+
+@media (max-width: 640px) {
+  .contact-action {
+    justify-self: stretch;
+  }
+
+  .contact-action .button {
+    width: 100%;
+  }
+}
